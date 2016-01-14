@@ -11,7 +11,8 @@
     "test": "karma start build/karma.conf.js --single-run"
   },
   "dependencies": {
-    "vue": "^1.0.0"
+    "vue": "^1.0.3",
+    "vue-resource": "^0.5.1"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -21,6 +22,9 @@
     "babel-preset-stage-2": "^6.0.0",
     "babel-runtime": "^5.8.0",
     "css-loader": "^0.23.0",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.13.0",
+    "jade": "^1.11.0",
     "eslint": "^1.10.3",
     "eslint-friendly-formatter": "^1.2.2",
     "eslint-loader": "^1.2.0",
@@ -39,11 +43,13 @@
     "phantomjs": "^1.9.19",
     "rimraf": "^2.5.0",
     "url-loader": "^0.5.7",
+    "vue-router": "^0.7.8",
     "vue-hot-reload-api": "^1.2.0",
     "vue-html-loader": "^1.0.0",
     "vue-loader": "^8.0.0",
     "vue-style-loader": "^1.0.0",
-    "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.12.0"
+    "template-html-loader": "0.0.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   }
 }

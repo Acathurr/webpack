@@ -1,8 +1,11 @@
-import Vue from 'vue'
-import App from './App'
+import Vue from 'vue';
+import App from './app';
+
+// vue resource
+Vue.use(require('vue-resource'));
 
 /* eslint-disable no-new */
 new Vue({
-  el: 'body',
-  components: { App }
-})
+	el: 'body',
+	components: { App }
+});
