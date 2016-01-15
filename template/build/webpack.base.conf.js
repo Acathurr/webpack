@@ -2,7 +2,8 @@ var path = require('path');
 
 module.exports = {
 	entry: {
-		app: ['./src/less/base.less', './src/main.js']
+		app: ['./src/less/base.less', './src/main.js'],
+		vendor: ['vue', 'vue-router', 'vue-resource']
 	},
 	output: {
 		path: path.resolve(__dirname, '../dist/static'),
